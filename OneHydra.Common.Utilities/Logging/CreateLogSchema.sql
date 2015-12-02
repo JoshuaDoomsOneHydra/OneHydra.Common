@@ -1,0 +1,31 @@
+
+IF OBJECT_ID('[dbo].[OneSearchLog]', 'U') IS NOT NULL
+BEGIN
+	DROP TABLE [dbo].[OneSearchLog]
+END
+GO
+
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[OneSearchLog](
+	[Id] [int] IDENTITY (1, 1) NOT NULL,
+	[Date] DATETIME NOT NULL,
+	[Thread] NVARCHAR(255) NOT NULL,
+	[Level] NVARCHAR(50) NOT NULL,
+	[Logger] NVARCHAR(255) NOT NULL,
+	[Message] NTEXT NOT NULL,
+	[Exception] NTEXT NULL,
+	[MachineName] NVARCHAR(255) NOT NULL,
+) ON [PRIMARY]
+
+GO
+
+
+
+
+
+
+

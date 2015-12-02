@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneHydra.Common.Azure", "OneHydra.Common.Azure\OneHydra.Common.Azure.csproj", "{C14388A1-D2EE-49DD-8589-30EF7B8544E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneHydra.Common.Utilities", "OneHydra.Common.Utilities\OneHydra.Common.Utilities.csproj", "{B2807051-E1D9-4B03-BB44-69159840BCB1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{A700E600-ED76-4E04-9E50-6D52FE2B7170}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneHydra.Common.Azure.Test", "OneHydra.Common.Azure.Test\OneHydra.Common.Azure.Test.csproj", "{C09B9209-ED32-4E20-A0B5-C69C2C39D1E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneHydra.Common.Utilities.Test", "OneHydra.Common.Utilities.Test\OneHydra.Common.Utilities.Test.csproj", "{C9F700CB-50F6-4731-84FC-18668338ADF5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Uat|Any CPU = Uat|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C14388A1-D2EE-49DD-8589-30EF7B8544E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C14388A1-D2EE-49DD-8589-30EF7B8544E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C14388A1-D2EE-49DD-8589-30EF7B8544E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C14388A1-D2EE-49DD-8589-30EF7B8544E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C14388A1-D2EE-49DD-8589-30EF7B8544E5}.Uat|Any CPU.ActiveCfg = Release|Any CPU
+		{C14388A1-D2EE-49DD-8589-30EF7B8544E5}.Uat|Any CPU.Build.0 = Release|Any CPU
+		{B2807051-E1D9-4B03-BB44-69159840BCB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2807051-E1D9-4B03-BB44-69159840BCB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2807051-E1D9-4B03-BB44-69159840BCB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2807051-E1D9-4B03-BB44-69159840BCB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2807051-E1D9-4B03-BB44-69159840BCB1}.Uat|Any CPU.ActiveCfg = Uat|Any CPU
+		{B2807051-E1D9-4B03-BB44-69159840BCB1}.Uat|Any CPU.Build.0 = Uat|Any CPU
+		{C09B9209-ED32-4E20-A0B5-C69C2C39D1E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C09B9209-ED32-4E20-A0B5-C69C2C39D1E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C09B9209-ED32-4E20-A0B5-C69C2C39D1E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C09B9209-ED32-4E20-A0B5-C69C2C39D1E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C09B9209-ED32-4E20-A0B5-C69C2C39D1E9}.Uat|Any CPU.ActiveCfg = Release|Any CPU
+		{C09B9209-ED32-4E20-A0B5-C69C2C39D1E9}.Uat|Any CPU.Build.0 = Release|Any CPU
+		{C9F700CB-50F6-4731-84FC-18668338ADF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9F700CB-50F6-4731-84FC-18668338ADF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9F700CB-50F6-4731-84FC-18668338ADF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9F700CB-50F6-4731-84FC-18668338ADF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9F700CB-50F6-4731-84FC-18668338ADF5}.Uat|Any CPU.ActiveCfg = Uat|Any CPU
+		{C9F700CB-50F6-4731-84FC-18668338ADF5}.Uat|Any CPU.Build.0 = Uat|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C09B9209-ED32-4E20-A0B5-C69C2C39D1E9} = {A700E600-ED76-4E04-9E50-6D52FE2B7170}
+		{C9F700CB-50F6-4731-84FC-18668338ADF5} = {A700E600-ED76-4E04-9E50-6D52FE2B7170}
+	EndGlobalSection
+EndGlobal
